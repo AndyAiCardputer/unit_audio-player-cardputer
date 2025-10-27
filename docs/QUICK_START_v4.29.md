@@ -1,107 +1,107 @@
 # 🚀 Quick Start Guide - Audio Player v4.29.0
 
-## 🎉 Что нового?
+## 🎉 What's New?
 
-### 💿 Jamaican Vinyl Splash (Заставка)
-При включении плеера вы увидите крутую анимацию виниловой пластинки!
+### 💿 Jamaican Vinyl Splash (Splash Screen)
+When you turn on the player, you'll see a cool vinyl record animation!
 
-### 💚 Matrix Rain (3-я визуализация)
-Теперь у вас есть 3 режима визуализации, включая классический эффект из Матрицы!
+### 💚 Matrix Rain (3rd visualization)
+Now you have 3 visualization modes, including the classic Matrix effect!
 
 ---
 
-## ⚡ Быстрый старт
+## ⚡ Quick Start
 
-### 1. Загрузка кода
+### 1. Loading the code
 
 ```bash
-# В Arduino IDE:
-1. Откройте audio_player_unit.ino
-2. Выберите плату: M5Stack Cardputer
-3. Нажмите Upload (➡️)
+# In Arduino IDE:
+1. Open audio_player_unit.ino
+2. Select board: M5Stack Cardputer
+3. Click Upload (➡️)
 ```
 
-### 2. Первый запуск
+### 2. First Launch
 
-При включении вы увидите:
+On startup you'll see:
 ```
 ┌─────────────────────────────────┐
 │  💿 Jamaican Vinyl Splash       │
 │                                 │
-│  🔴 Конверт альбома             │
-│  🟡 Пластинка выезжает          │
-│  🟢 Вращение с нотами 🎵        │
+│  🔴 Album cover                 │
+│  🟡 Record slides out           │
+│  🟢 Spinning with notes 🎵      │
 │  📝 "AndyShuffle v4.29"         │
 │                                 │
 │  Press any key to skip ⏭️       │
 └─────────────────────────────────┘
 ```
 
-**Хотите пропустить?** Нажмите любую кнопку!
+**Want to skip?** Press any button!
 
 ---
 
-## 🎮 Управление
+## 🎮 Controls
 
-### Основные кнопки:
+### Basic buttons:
 
-| Кнопка | Действие |
-|--------|----------|
+| Button | Action |
+|--------|--------|
 | **BtnA** (1x) | Play/Pause ▶️⏸️ |
 | **BtnA** (2x) | Next track ⏭️ |
 | **BtnA** (3x) | Previous track ⏮️ |
-| **+** | Громкость вверх 🔊 |
-| **-** | Громкость вниз 🔉 |
-| **V** | Визуализация 🎨 |
-| **I** | Информация ℹ️ |
+| **+** | Volume up 🔊 |
+| **-** | Volume down 🔉 |
+| **V** | Visualization 🎨 |
+| **I** | Information ℹ️ |
 
-### Визуализация (V):
+### Visualization (V):
 
-Нажимайте **V** для переключения:
+Press **V** to cycle:
 
 ```
-1-й раз → 📊 Bars (столбики)
+1st time → 📊 Bars (columns)
            ║ ║ ║ ║ ║ ║
            
-2-й раз → 🌊 Waves (волны)
+2nd time → 🌊 Waves (waveforms)
            ～～～～～～
            
-3-й раз → 💚 MATRIX RAIN!
+3rd time → 💚 MATRIX RAIN!
            01♪10♫01
            
-4-й раз → Выход на главный экран
+4th time → Exit to main screen
 ```
 
-### Matrix Rain особенности:
+### Matrix Rain features:
 
-- 🟢 Классический зеленый цвет
-- ♪♫ Музыкальные символы (каждый ~20-й)
-- 🎶 Быстрее при воспроизведении
-- ⏸️ Медленнее на паузе
-- **ESC** → выход
+- 🟢 Classic green color
+- ♪♫ Musical symbols (every ~20th)
+- 🎶 Faster when playing
+- ⏸️ Slower when paused
+- **ESC** → exit
 
 ---
 
 ## 🎨 Jamaican Vinyl Details
 
-### Цветовая схема 🇯🇲
+### Color Scheme 🇯🇲
 
-Заставка использует ямайские цвета:
-- 🔴 **Красный** - верхняя полоса
-- 🟡 **Желтый** - средняя полоса
-- 🟢 **Зеленый** - нижняя полоса
+Splash screen uses Jamaican colors:
+- 🔴 **Red** - top stripe
+- 🟡 **Yellow** - middle stripe
+- 🟢 **Green** - bottom stripe
 
-### Анимация:
+### Animation:
 
 ```
-Этап 1 (0.6 сек):     Этап 2 (0.7 сек):
+Stage 1 (0.6 sec):     Stage 2 (0.7 sec):
 ┌─────────┐           ┌─────────┐  ●
 │         │           │         │ ╱│╲
 │  Andy   │  →        │  Andy   │  ● 
 │ Shuffle │           │ Shuffle │ ╱│╲
 └─────────┘           └─────────┘  ●
 
-Этап 3 (0.9 сек):     Этап 4 (0.6 сек):
+Stage 3 (0.9 sec):     Stage 4 (0.6 sec):
       ●                     ●
      ╱│╲                   ╱│╲
   🎵  ●  🎵         🎵  ●  🎵
@@ -111,116 +111,116 @@
                     AndyShuffle v4.29
 ```
 
-**Итого:** ~3 секунды крутой анимации!
+**Total:** ~3 seconds of cool animation!
 
 ---
 
-## 💡 Советы и трюки
+## 💡 Tips & Tricks
 
-### Заставка:
-- Показывается только **1 раз** при включении
-- Пропустить: нажать **любую кнопку**
-- Уникальный reggae vibe! 🎸
+### Splash Screen:
+- Shows only **once** per power cycle
+- Skip: press **any button**
+- Unique reggae vibe! 🎸
 
 ### Matrix Rain:
-- Лучше смотрится при воспроизведении музыки
-- Символы падают быстрее под музыку
-- Ищите музыкальные ноты ♪ ♫ между символами!
+- Looks better when music is playing
+- Characters fall faster with music
+- Hunt for musical notes ♪ ♫ between characters!
 
-### Производительность:
-- Matrix обновляется каждые **80ms** (~12 FPS)
-- Низкая нагрузка на CPU
-- Плавная анимация
+### Performance:
+- Matrix updates every **80ms** (~12 FPS)
+- Low CPU load
+- Smooth animation
 
 ---
 
 ## 🐛 Troubleshooting
 
-### Заставка не показывается?
-- Проверьте переменную `splashShown`
-- Она сбрасывается только при перезагрузке
+### Splash screen not showing?
+- Check `splashShown` variable
+- It resets only on reboot
 
-### Matrix лагает?
-- Нормально! Это эффект "Matrix"
-- Если сильно лагает, увеличьте `matrixUpdateInterval`
+### Matrix lagging?
+- Normal! That's the "Matrix" effect
+- If too laggy, increase `matrixUpdateInterval`
 
-### Нет музыкальных символов?
-- Они редкие (каждый ~20-й)
-- Подождите немного - появятся!
-
----
-
-## 📊 Сравнение режимов
-
-| Режим | Стиль | Нагрузка | Крутизна |
-|-------|-------|----------|----------|
-| **Bars** | Классика | Низкая | ⭐⭐⭐⭐ |
-| **Waves** | Плавность | Средняя | ⭐⭐⭐⭐ |
-| **Matrix** | Хакерская | Низкая | ⭐⭐⭐⭐⭐ |
+### No musical symbols?
+- They're rare (every ~20th)
+- Wait a bit - they'll appear!
 
 ---
 
-## 🎯 Комбинации
+## 📊 Mode Comparison
 
-### Для демонстрации:
-1. Включите плеер → **Jamaican Vinyl** ✨
-2. Нажмите **V** → **Bars**
-3. Нажмите **V** → **Waves**
-4. Нажмите **V** → **MATRIX!** 💚
-5. Нажмите **I** → Info screen
+| Mode | Style | Load | Coolness |
+|------|-------|------|----------|
+| **Bars** | Classic | Low | ⭐⭐⭐⭐ |
+| **Waves** | Smooth | Medium | ⭐⭐⭐⭐ |
+| **Matrix** | Hacker | Low | ⭐⭐⭐⭐⭐ |
 
-### Для использования:
-1. **Any key** → пропустить заставку
-2. Включите музыку → **BtnA**
+---
+
+## 🎯 Combinations
+
+### For demonstration:
+1. Power on → **Jamaican Vinyl** ✨
+2. Press **V** → **Bars**
+3. Press **V** → **Waves**
+4. Press **V** → **MATRIX!** 💚
+5. Press **I** → Info screen
+
+### For usage:
+1. **Any key** → skip splash
+2. Start music → **BtnA**
 3. **V** → Matrix Rain
-4. Наслаждайтесь! 🎉
+4. Enjoy! 🎉
 
 ---
 
-## 🎵 Рекомендации по музыке
+## 🎵 Music Recommendations
 
-### Для Matrix Rain:
-- 🎸 Dubstep - энергичные капли
-- 🥁 Drum & Bass - быстрые ритмы
-- 🎹 Electronic - цифровой vibe
-- 🎺 Reggae - для ямайской темы!
+### For Matrix Rain:
+- 🎸 Dubstep - energetic drops
+- 🥁 Drum & Bass - fast rhythms
+- 🎹 Electronic - digital vibe
+- 🎺 Reggae - for Jamaican theme!
 
-### Для Jamaican Vinyl:
-- 🇯🇲 Bob Marley - идеально!
-- 🎵 Reggae классика
+### For Jamaican Vinyl:
+- 🇯🇲 Bob Marley - perfect!
+- 🎵 Reggae classics
 - 🌴 Tropical vibes
 
 ---
 
-## 📝 Заметки
+## 📝 Notes
 
-### Версии:
-- **v4.28.6** → Исправлена позиция текста
+### Versions:
+- **v4.28.6** → Fixed text position
 - **v4.29.0** → Jamaican Vinyl + Matrix Rain!
 
-### Следующее обновление:
-Возможно:
-- Больше цветовых схем для Matrix
-- Дополнительные заставки
-- Синхронизация с реальным аудио
+### Next update:
+Possible:
+- More Matrix color schemes
+- Additional splash screens
+- Real audio synchronization
 
 ---
 
-## 🚀 Готово!
+## 🚀 Done!
 
-Теперь у вас самый крутой Audio Player для Cardputer!
+Now you have the coolest Audio Player for Cardputer!
 
-**Особенности:**
-- ✅ Jamaican Vinyl заставка 💿
-- ✅ 3 режима визуализации 🎨
-- ✅ Matrix Rain эффект 💚
-- ✅ Музыкальные ноты ♪♫
-- ✅ Можно пропустить заставку
+**Features:**
+- ✅ Jamaican Vinyl splash screen 💿
+- ✅ 3 visualization modes 🎨
+- ✅ Matrix Rain effect 💚
+- ✅ Musical notes ♪♫
+- ✅ Skippable splash
 - ✅ Reggae vibe 🇯🇲
 
 ---
 
-**Наслаждайтесь!** 🎉🎵💚
+**Enjoy!** 🎉🎵💚
 
 Made by **Andy+AI** with ❤️
 

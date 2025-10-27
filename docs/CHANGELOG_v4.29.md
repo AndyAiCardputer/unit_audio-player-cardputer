@@ -1,127 +1,127 @@
 # 🎉 Audio Player v4.29.0 - Matrix Rain Edition
 
-## 🆕 Новые функции
+## 🆕 New Features
 
-### 💚 Matrix Rain Visualization (3-й режим визуализации)
+### 💚 Matrix Rain Visualization (3rd visualization mode)
 
-**Классический эффект из фильма "Матрица":**
+**Classic effect from "The Matrix" movie:**
 
-#### Характеристики:
-- 🟢 **Классический зеленый цвет**
-- 📊 40 столбцов символов падают сверху вниз
-- 🎵 Музыкальные символы (♪ ♫) каждый ~20-й
-- ✨ Trail эффект (затухающий след)
-- 🎶 Скорость зависит от воспроизведения
+#### Characteristics:
+- 🟢 **Classic green color**
+- 📊 40 columns of characters falling from top to bottom
+- 🎵 Musical symbols (♪ ♫) every ~20th character
+- ✨ Trail effect (fading trail)
+- 🎶 Speed depends on playback status
 
-#### Как работает:
-- **Музыка играет** → быстрое падение (speedx2)
-- **На паузе** → медленное падение (speedx1)
-- **Символы**: буквы, цифры, спецсимволы, ноты
-- **Яркость**: голова яркая, след затухает
+#### How it works:
+- **Music playing** → fast falling (speed x2)
+- **Paused** → slow falling (speed x1)
+- **Characters**: letters, numbers, special chars, notes
+- **Brightness**: head bright, trail fades
 
-#### Переключение режимов:
+#### Mode switching:
 ```
-Кнопка V:
-1-й раз → Bars (столбики) 📊
-2-й раз → Waves (волны) 🌊
-3-й раз → MATRIX! 💚
-4-й раз → выход
+Press V:
+1st time → Bars (columns) 📊
+2nd time → Waves (waveforms) 🌊
+3rd time → MATRIX! 💚
+4th time → exit
 ```
 
 ---
 
-## 🎨 Визуальные улучшения
+## 🎨 Visual Improvements
 
-1. **Музыкальные ноты в Matrix**
-   - Редкие (каждый ~20-й символ)
-   - Подчеркивает что это АУДИО плеер
-   - Символы ♪ и ♫
+1. **Musical notes in Matrix**
+   - Rare (every ~20th character)
+   - Emphasizes this is an AUDIO player
+   - Symbols ♪ and ♫
 
-2. **Улучшенная система визуализации**
-   - 3 режима: Bars, Waves, Matrix
-   - Плавные переключения
-   - Оптимизированная производительность
+2. **Enhanced visualization system**
+   - 3 modes: Bars, Waves, Matrix
+   - Smooth transitions
+   - Optimized performance
 
 ---
 
-## 🔧 Технические детали
+## 🔧 Technical Details
 
 ### Matrix Rain:
 ```cpp
-- initMatrixColumns()    // Инициализация столбцов
-- updateMatrixColumns()  // Обновление позиций
-- drawMatrixRain()       // Рисование на экране
+- initMatrixColumns()    // Initialize columns
+- updateMatrixColumns()  // Update positions
+- drawMatrixRain()       // Draw on screen
 ```
 
-### Структуры данных:
+### Data structures:
 ```cpp
 struct MatrixColumn {
-    int y;               // позиция Y
-    int speed;           // скорость падения
-    char character;      // символ
-    int brightness;      // яркость
-    int trailLength;     // длина следа
+    int y;               // Y position
+    int speed;           // falling speed
+    char character;      // character
+    int brightness;      // brightness
+    int trailLength;     // trail length
 };
 ```
 
 ---
 
-## 📊 Статистика
+## 📊 Statistics
 
-### Размер кода:
-- **До v4.28.6**: ~1559 строк
-- **После v4.29.0**: ~1950 строк (+391 строка)
+### Code size:
+- **Before v4.28.6**: ~1559 lines
+- **After v4.29.0**: ~1950 lines (+391 lines)
 
-### Новые переменные:
+### New variables:
 - `MatrixColumn matrixColumns[40]`
 - `matrixNoteCounter`
 
-### Новые функции:
-- Matrix Rain: 3 функции (init, update, draw)
+### New functions:
+- Matrix Rain: 3 functions (init, update, draw)
 - Visualization system improvements
 
 ---
 
-## 🎯 Использование
+## 🎯 Usage
 
 ### Matrix Rain:
-1. Нажать **V** для входа в визуализацию
-2. Нажать **V** еще 2 раза для Matrix
-3. **ESC** для выхода
+1. Press **V** to enter visualization
+2. Press **V** 2 more times for Matrix
+3. **ESC** to exit
 
-### Информация:
-- Нажать **I** для просмотра всех команд
-- Обновлено: "V:3Viz" (было "V:2Viz")
-
----
-
-## 🐛 Исправления
-
-- Обновлена версия в INFO экране на v4.29.0
-- Обновлен текст подсказки "V:3Viz"
-- Оптимизирован update interval для Matrix (80ms)
+### Information:
+- Press **I** to view all commands
+- Updated: "V:3Viz" (was "V:2Viz")
 
 ---
 
-## 🚀 Что дальше?
+## 🐛 Fixes
 
-Возможные улучшения:
-- [ ] Настройка цветов Matrix (зеленый/красный/синий)
-- [ ] Сохранение предпочтений режима визуализации
-- [ ] Больше вариантов заставок на выбор
-- [ ] Синхронизация Matrix с реальным аудио FFT
+- Updated version in INFO screen to v4.29.0
+- Updated hint text to "V:3Viz"
+- Optimized update interval for Matrix (80ms)
+
+---
+
+## 🚀 What's Next?
+
+Possible improvements:
+- [ ] Matrix color customization (green/red/blue/rainbow)
+- [ ] Save visualization preference
+- [ ] More splash screen themes
+- [ ] Real-time Matrix-FFT synchronization
 
 ---
 
 ## 📝 Changelog
 
-### v4.29.0 (19.10.2025)
-- ✅ Добавлена Matrix Rain визуализация
-- ✅ 3 режима визуализации (Bars → Waves → Matrix)
-- ✅ Музыкальные символы в Matrix
-- ✅ Оптимизированная производительность
+### v4.29.0 (October 19, 2025)
+- ✅ Added Matrix Rain visualization
+- ✅ 3 visualization modes (Bars → Waves → Matrix)
+- ✅ Musical symbols in Matrix
+- ✅ Optimized performance
 
-### v4.28.6 (19.10.2025)
+### v4.28.6 (October 19, 2025)
 - 🐛 Fixed all "Press I for Info" positions to y=110
 
 ---

@@ -2,67 +2,67 @@
 
 ## 🚀 Matrix Rain Edition
 
-**Дата релиза:** 19 октября 2025  
-**Версия:** v4.29.0  
-**Автор:** Andy+AI
+**Release date:** October 19, 2025  
+**Version:** v4.29.0  
+**Author:** Andy+AI
 
 ---
 
-## 📦 Что добавлено?
+## 📦 What's New?
 
 ### 💚 Matrix Rain Visualization
 
-**Легендарный эффект из фильма "Матрица"!**
+**The legendary effect from "The Matrix" movie!**
 
-🎨 **Характеристики:**
-- 🟢 Классический зеленый цвет
-- 📊 40 столбцов падающих символов
-- ♪♫ Музыкальные ноты (каждый ~20-й символ)
-- ✨ Trail эффект (затухающий след)
-- 🎶 Скорость зависит от музыки
+🎨 **Characteristics:**
+- 🟢 Classic green color
+- 📊 40 columns of falling characters
+- ♪♫ Musical notes (every ~20th character)
+- ✨ Trail effect (fading trail)
+- 🎶 Speed depends on music
 
-🎮 **Как включить:**
+🎮 **How to enable:**
 ```
-Нажми V 3 раза:
-V → Bars (столбики)
-V → Waves (волны)
+Press V 3 times:
+V → Bars (columns)
+V → Waves (waveforms)
 V → MATRIX! 💚
-V → Выход
+V → Exit
 ```
 
 ---
 
-## 🎯 Быстрый старт
+## 🎯 Quick Start
 
-### Загрузка:
-1. Откройте `audio_player_unit.ino` в Arduino IDE
-2. Выберите плату: **M5Stack Cardputer**
-3. Нажмите **Upload** ➡️
+### Loading:
+1. Open `audio_player_unit.ino` in Arduino IDE
+2. Select board: **M5Stack Cardputer**
+3. Click **Upload** ➡️
 
-### Первый запуск:
-1. Плеер запустится автоматически 🎵
-2. Плеер готов к работе!
+### First Launch:
+1. Player starts automatically 🎵
+2. Player ready to use!
 
-### Попробуйте Matrix:
-1. Нажмите **V** (3 раза)
-2. Наслаждайтесь зелеными символами! 💚
-3. **ESC** для выхода
-
----
-
-## 📊 Статистика
-
-| Параметр | Значение |
-|----------|----------|
-| **Размер кода** | ~1950 строк (+391) |
-| **Новых функций** | 12 |
-| **Режимов визуализации** | 3 |
-| **Длительность заставки** | ~3 сек |
-| **FPS Matrix** | ~12 |
+### Try Matrix:
+1. Press **V** (3 times)
+2. Enjoy the green characters! 💚
+3. **ESC** to exit
 
 ---
 
-## 🎨 Скриншоты концепций
+## 📊 Statistics
+
+| Parameter | Value |
+|-----------|-------|
+| **Code size** | ~1950 lines (+391) |
+| **New functions** | 12 |
+| **Visualization modes** | 3 |
+| **Splash duration** | ~3 sec |
+| **Matrix FPS** | ~12 |
+
+---
+
+## 🎨 Concept Screenshots
 
 ### Matrix Rain:
 ```
@@ -80,45 +80,45 @@ V → Выход
 
 ---
 
-## 🎮 Управление
+## 🎮 Controls
 
-### Основное:
-| Кнопка | Действие |
-|--------|----------|
+### Main:
+| Button | Action |
+|--------|--------|
 | **BtnA** (1x) | Play/Pause |
 | **BtnA** (2x) | Next |
 | **BtnA** (3x) | Previous |
 | **+/-** | Volume |
-| **V** | Визуализация (3 режима) |
-| **I** | Информация |
+| **V** | Visualization (3 modes) |
+| **I** | Information |
 
-### В заставке:
-| Кнопка | Действие |
-|--------|----------|
-| **Любая** | Пропустить заставку |
+### In splash screen:
+| Button | Action |
+|--------|--------|
+| **Any** | Skip splash |
 
-### В Matrix:
-| Кнопка | Действие |
-|--------|----------|
-| **V** | Следующий режим |
-| **ESC** | Выход |
+### In Matrix:
+| Button | Action |
+|--------|--------|
+| **V** | Next mode |
+| **ESC** | Exit |
 
 ---
 
-## 💡 Советы
+## 💡 Tips
 
-### Для максимального wow-эффекта:
-1. 🎵 Включите музыку с хорошим басом
-2. 💚 Переключитесь на Matrix Rain
-3. ✨ Покажите друзьям!
+### For maximum wow-effect:
+1. 🎵 Play music with good bass
+2. 💚 Switch to Matrix Rain
+3. ✨ Show your friends!
 
-### Производительность:
-- Matrix обновляется каждые 80ms (~12 FPS)
-- Низкая нагрузка на CPU
-- Плавная анимация даже на полной скорости
+### Performance:
+- Matrix updates every 80ms (~12 FPS)
+- Low CPU load
+- Smooth animation even at full speed
 
-### Кастомизация:
-Хотите изменить скорость Matrix?
+### Customization:
+Want to change Matrix speed?
 ```cpp
 // Matrix Rain update interval:
 const unsigned long matrixUpdateInterval = 80; // ~12 FPS
@@ -126,85 +126,85 @@ const unsigned long matrixUpdateInterval = 80; // ~12 FPS
 
 ---
 
-## 🐛 Известные особенности
+## 🐛 Known Features
 
-1. **Matrix может "лагать"**
-   - Это эффект! Как в настоящей Матрице
-   - Если сильно лагает, увеличьте interval
+1. **Matrix may "lag"**
+   - It's a feature! Like in the real Matrix
+   - If too laggy, increase the interval
 
-2. **Музыкальные символы редкие**
-   - Каждый ~20-й символ
-   - Специально для "охоты за нотами"
-
----
-
-## 📚 Документация
-
-Создано 3 новых файла:
-- 📄 **CHANGELOG_v4.29.md** - полный список изменений
-- 🚀 **QUICK_START_v4.29.md** - быстрый старт
-- 📋 **RELEASE_v4.29.0.md** - этот файл!
+2. **Musical symbols are rare**
+   - Every ~20th character
+   - Designed for "note hunting"
 
 ---
 
-## 🔄 Обновление с предыдущей версии
+## 📚 Documentation
 
-### С v4.28.6:
+Created 3 new files:
+- 📄 **CHANGELOG_v4.29.md** - full changelog
+- 🚀 **QUICK_START_v4.29.md** - quick start guide
+- 📋 **RELEASE_v4.29.0.md** - this file!
+
+---
+
+## 🔄 Upgrading from Previous Version
+
+### From v4.28.6:
 ```bash
-# Просто загрузите новый код!
-1. Откройте audio_player_unit.ino
-2. Upload → Готово!
+# Just upload the new code!
+1. Open audio_player_unit.ino
+2. Upload → Done!
 ```
 
-Все настройки сохранятся:
-- ✅ Громкость
-- ✅ Последний трек
-- ✅ Режим воспроизведения
+All settings preserved:
+- ✅ Volume
+- ✅ Last track
+- ✅ Playback mode
 
 ---
 
-## 🎯 Что дальше?
+## 🎯 What's Next?
 
-### Возможные улучшения:
-- [ ] Настройка цветов Matrix (зеленый/красный/синий)
-- [ ] Сохранение предпочтений режима визуализации
-- [ ] Синхронизация Matrix с реальным FFT
+### Possible improvements:
+- [ ] Matrix color customization (green/red/blue)
+- [ ] Save visualization preference
+- [ ] Real-time Matrix-FFT synchronization
 
-### Ваши идеи?
-Пишите предложения! 💡
-
----
-
-## 🙏 Благодарности
-
-- **Andy** - за идею проекта! 🎵
-- **AI** - за реализацию Matrix Rain 💚
-- **M5Stack** - за Cardputer 📱
-- **Вам** - за использование плеера! 🎉
+### Your ideas?
+Submit suggestions! 💡
 
 ---
 
-## 📱 Поддержка
+## 🙏 Thanks
 
-### Возникли проблемы?
-1. Проверьте `QUICK_START_v4.29.md`
-2. Смотрите раздел Troubleshooting
-3. Попробуйте перезагрузить Cardputer
-
-### Все отлично?
-🌟 Поставьте звезду на GitHub!
-📸 Поделитесь фото/видео!
-🎵 Наслаждайтесь музыкой!
+- **Andy** - for the project idea! 🎵
+- **AI** - for Matrix Rain implementation 💚
+- **M5Stack** - for Cardputer 📱
+- **You** - for using the player! 🎉
 
 ---
 
-## 🎉 Заключение
+## 📱 Support
 
-**Audio Player v4.29.0** - это:
-- ✅ 3 потрясающих режима визуализации
-- ✅ Легендарный Matrix Rain эффект
-- ✅ Музыкальные ноты в визуализации
-- ✅ Полностью бесплатный и open source
+### Having issues?
+1. Check `QUICK_START_v4.29.md`
+2. See Troubleshooting section
+3. Try rebooting Cardputer
+
+### Everything works?
+🌟 Star us on GitHub!
+📸 Share photos/videos!
+🎵 Enjoy the music!
+
+---
+
+## 🎉 Conclusion
+
+**Audio Player v4.29.0** is:
+- ✅ 3 stunning visualization modes
+- ✅ Legendary Matrix Rain effect
+- ✅ Musical notes in visualization
+- ✅ Completely free and open source
 
 ---
 
@@ -216,5 +216,5 @@ const unsigned long matrixUpdateInterval = 80; // ~12 FPS
 
 ---
 
-**v4.29.0** | 19.10.2025 | AndyShuffle
+**v4.29.0** | October 19, 2025 | AndyShuffle
 
