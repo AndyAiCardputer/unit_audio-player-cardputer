@@ -1,0 +1,30 @@
+# Arduino/PlatformIO
+.pio/
+.vscode/
+.pioenvs/
+.piolibdeps/
+*.bin
+*.elf
+*.hex
+
+# Compiled Object files
+*.o
+*.obj
+
+# IDE
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build folders
+build/
+.cache/
+
+# Logs
+*.log
+
+# Temp files
+temp/
+tmp/
+
