@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-ESP32--S3-blue)](https://github.com/m5stack/M5Cardputer)
-[![Version](https://img.shields.io/badge/version-v4.29.0-green)](https://github.com/AndyAiCardputer/audio-player-cardputer/releases)
+[![Version](https://img.shields.io/badge/version-v4.29.0-green)](https://github.com/AndyAiCardputer/unit_audio-player-cardputer/releases)
 
 Feature-rich **MP3/WAV Audio Player** for M5Stack Cardputer with stunning visualizations and Jamaican-themed splash screen.
 
@@ -72,7 +72,7 @@ Feature-rich **MP3/WAV Audio Player** for M5Stack Cardputer with stunning visual
 
 ### Option 1: Flash Pre-built Binary (Easiest!)
 
-1. Download `4.29.0.ino.bin` from [Releases](https://github.com/AndyAiCardputer/audio-player-cardputer/releases)
+1. Download `4.29.0.ino.bin` from [Releases](https://github.com/AndyAiCardputer/unit_audio-player-cardputer/releases)
 2. Connect your M5Stack Cardputer via USB-C
 3. Flash using [esptool](https://github.com/espressif/esptool):
 
