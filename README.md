@@ -64,7 +64,7 @@ Feature-rich **MP3/WAV Unit Audio Player** for M5Stack Cardputer with stunning v
 esptool.py --chip esp32s3 --port /dev/ttyUSB0 --baud 921600 write_flash 0x0 4.29.0.ino.bin
 ```
 
-4. **Done!** Cardputer will restart and show the Jamaican Vinyl splash! 💿
+4. **Done!** The audio player will start automatically. 🎵
 
 ---
 
@@ -127,7 +127,6 @@ Iconic falling characters effect from The Matrix!
 ## 💡 Tips & Tricks
 
 ### For Best Experience:
-- 🎵 **Music:** Try reggae (Bob Marley!) for full Jamaican vibe
 - 💚 **Matrix:** Best with dubstep or drum & bass
 - 📊 **Bars:** Perfect for electronic music with strong bass
 - 🌊 **Waves:** Beautiful with classical or ambient tracks
@@ -138,13 +137,10 @@ Iconic falling characters effect from The Matrix!
 - Smooth playback on all formats
 
 ### Customization:
-Want to change colors or speed? Edit these in the code:
+Want to change Matrix Rain speed? Edit this in the code:
 ```cpp
-// Matrix Rain speed:
+// Matrix Rain update interval (default 80ms = ~12 FPS):
 const unsigned long matrixUpdateInterval = 80;
-
-// Jamaican colors:
-RED, YELLOW, GREEN  // in drawVinylRecord()
 ```
 
 ---
@@ -199,7 +195,7 @@ RED, YELLOW, GREEN  // in drawVinylRecord()
 
 ## 🙏 Credits
 
-- **Original concept:** Andy 🇯🇲
+- **Original concept:** Andy 🎵
 - **Matrix Rain implementation:** AI Assistant (Claude)
 - **M5Stack Cardputer:** [M5Stack](https://github.com/m5stack)
 - **Audio libraries:** ESP8266Audio team
@@ -222,7 +218,6 @@ Contributions are welcome! Ideas for improvements:
 - [ ] Additional splash screen themes
 - [ ] Save visualization preference
 - [ ] Real-time FFT synchronization
-- [ ] Equalizer with Jamaican colors
 
 ---
 
@@ -230,9 +225,7 @@ Contributions are welcome! Ideas for improvements:
 
 **Made with ❤️ by Andy+AI**
 
-🍀 🎵 💿 💚 🇯🇲
-
-**One Love, One Audio Player!** ✌️
+🎵 💿 💚 🎶
 
 *Press V to unleash the Matrix!* ⚡
 
