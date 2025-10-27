@@ -24,22 +24,7 @@ Feature-rich **MP3/WAV Audio Player** for M5Stack Cardputer with stunning visual
 
 ---
 
-## 📸 Screenshots
-
-### 💿 Jamaican Vinyl Splash Screen
-**Animated startup with reggae vibes!** 🇯🇲
-- Red-Yellow-Green color scheme
-- Vinyl record slides out and spins
-- Musical notes fly around 🎵
-- Skip with any key!
-
-### 💚 Matrix Rain Visualization
-**Legendary effect from The Matrix!**
-- 40 columns of falling characters
-- Musical notes ♪♫ hidden in the rain
-- Speed synced with music
-- ~12 FPS smooth animation
-
+## 📸 Screenshot
 ---
 
 ## 🎮 Controls
