@@ -4,7 +4,7 @@
 [![Platform](https://img.shields.io/badge/platform-ESP32--S3-blue)](https://github.com/m5stack/M5Cardputer)
 [![Version](https://img.shields.io/badge/version-v4.29.0-green)](https://github.com/AndyAiCardputer/unit_audio-player-cardputer/releases)
 
-Feature-rich **MP3/WAV Audio Player** for M5Stack Cardputer with stunning visualizations and Jamaican-themed splash screen.
+Feature-rich **MP3/WAV Unit Audio Player** for M5Stack Cardputer with stunning visualizations.
 
 ---
 
@@ -15,7 +15,6 @@ Feature-rich **MP3/WAV Audio Player** for M5Stack Cardputer with stunning visual
   - 📊 Bars (classic equalizer)
   - 🌊 Waves (smooth waveforms)
   - 💚 **Matrix Rain** (legendary effect!)
-- ✅ **Jamaican Vinyl Splash** 💿🇯🇲 (animated startup screen)
 - ✅ **Music controls:** Play/Pause, Next/Previous
 - ✅ **Volume control** (10 levels)
 - ✅ **File browser** for SD card
@@ -124,33 +123,6 @@ Iconic falling characters effect from The Matrix!
 - ⏸️ Slows down when paused
 - **Hunt for the musical notes!** (~every 20th character)
 
----
-
-## 🇯🇲 Jamaican Vinyl Splash
-
-**Reggae-inspired animated startup screen!**
-
-### Animation Sequence:
-1. **Envelope appears** with Jamaican colors (0.6s)
-   - 🔴 Red border (top)
-   - 🟡 Yellow stripe (middle)
-   - 🟢 Green stripe (bottom)
-
-2. **Vinyl slides out** from envelope (0.7s)
-   - Black vinyl record
-   - Center label visible
-
-3. **Vinyl spins** with musical notes (0.9s)
-   - Record rotates
-   - 5 notes fly out 🎵
-
-4. **Text appears** letter-by-letter (0.6s)
-   - "AndyShuffle v4.29"
-
-**Total duration:** ~3 seconds  
-**Skip:** Press ANY key!
-
----
 
 ## 💡 Tips & Tricks
 
