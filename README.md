@@ -23,7 +23,22 @@ Feature-rich **MP3/WAV Unit Audio Player** for M5Stack Cardputer with stunning v
 
 ---
 
-## 📸 Screenshot
+## 📸 Screenshots
+
+### Main Player Interface
+![Player Interface](screenshots/2025-10-27%2001.01.49.jpg)
+
+### Matrix Rain Visualization
+![Matrix Rain 1](screenshots/2025-10-27%2001.01.56.jpg)
+![Matrix Rain 2](screenshots/2025-10-27%2001.02.04.jpg)
+
+### Bars & Waves Visualizations
+![Bars Visualization](screenshots/2025-10-27%2001.02.14.jpg)
+![Waves Visualization](screenshots/2025-10-27%2001.02.17.jpg)
+
+### File Browser
+![File Browser](screenshots/2025-10-27%2001.02.24.jpg)
+
 ---
 
 ## 🎮 Controls
