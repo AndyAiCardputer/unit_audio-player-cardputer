@@ -5,13 +5,6 @@ All notable changes to Audio Player for M5Stack Cardputer will be documented in 
 ## [v4.29.0] - 2025-10-19
 
 ### ✨ Added
-- **💿 Jamaican Vinyl Splash Screen** - Animated startup with reggae theme
-  - Red-Yellow-Green Jamaican color scheme 🇯🇲
-  - Vinyl record slides out and spins
-  - 5 musical notes fly out animation
-  - "AndyShuffle v4.29" text appears letter-by-letter
-  - ~3 seconds duration, skip with any key
-
 - **💚 Matrix Rain Visualization** - Legendary effect from The Matrix!
   - 40 columns of falling green characters
   - Musical notes ♪♫ hidden in the rain (~every 20th)
